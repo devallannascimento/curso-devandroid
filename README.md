@@ -1,2 +1,2 @@
 # curso-devandroid
-📁 Repositório do curso: Desenvolvimento Android Completo - Jamilton Damasceno
+📁 Repositório do curso: Desenvolvimento Android Avançado - Jamilton Damasceno
