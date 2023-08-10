@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.InterfaceNetflix" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- Cores primárias -->
+        <item name="colorPrimary">@color/primaria</item>
+        <item name="colorPrimaryVariant">@color/primaria_variacao</item>
+        <item name="colorOnPrimary">@color/branco</item>
+
+        <!-- Cores secundárias -->
+        <item name="colorSecondary">@color/secundaria</item>
+        <item name="colorOnSecondary">@color/preto</item>
+
+        <!-- Cor da barra de status -->
+        <item name="android:statusBarColor">@color/primaria_variacao</item>
+
+        <!-- Customizando interface Netflix -->
+        <item name="android:windowBackground">@color/fundo</item>
+
+
+    </style>
+
+    <style name="Theme.InterfaceNetflix" parent="Base.Theme.InterfaceNetflix" />
+</resources>
