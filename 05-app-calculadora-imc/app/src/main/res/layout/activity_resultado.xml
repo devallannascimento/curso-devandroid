@@ -43,7 +43,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textPeso" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textDiagnostico"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -52,6 +52,24 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textAltura" />
+
+    <Button
+        android:id="@+id/btnNovo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="calcular novamente"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/barrierButton" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrierButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="bottom"
+        app:constraint_referenced_ids="textResultado" />
 
     <TextView
         android:id="@+id/textResultado"
@@ -63,5 +81,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toBottomOf="@+id/textDiagnostico" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
