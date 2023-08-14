@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GasolinaOuÁlcool" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/primaria</item> -->
+        <item name="colorPrimaryVariant">@color/primaria_variacao</item> -->
+
+        <item name="colorSecondary">@color/secundaria</item>
+
+        <item name="android:statusBarColor">@color/primaria_variacao</item>
+
+    </style>
+
+    <style name="Theme.GasolinaOuÁlcool" parent="Base.Theme.GasolinaOuÁlcool" />
+</resources>

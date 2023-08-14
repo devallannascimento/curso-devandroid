@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AulaFragment" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/primaria</item>
+        <item name="colorPrimaryVariant">@color/primariaVariacao</item>
+
+        <item name="android:statusBarColor">@color/primariaVariacao</item>
+    </style>
+
+    <style name="Theme.AulaFragment" parent="Base.Theme.AulaFragment" />
+</resources>
