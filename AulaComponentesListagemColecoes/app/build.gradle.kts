@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.dev.allannascimento.gasolinaoualcool"
+    namespace = "com.dev.allannascimento.aulascomponenteslistagemcolecoes"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.dev.allannascimento.gasolinaoualcool"
+        applicationId = "com.dev.allannascimento.aulascomponenteslistagemcolecoes"
         minSdk = 26
         targetSdk = 33
         versionCode = 1
@@ -44,7 +44,4 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
-
-    // Fragment KTX do Jetpack
-    implementation("androidx.fragment:fragment-ktx:1.5.7")
 }
