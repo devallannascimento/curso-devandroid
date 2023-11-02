@@ -1,14 +1,14 @@
 package com.allannascimento.aulathreadscoroutines.model
 
 data class Endereco(
-    val cep: String,
-    val logradouro: String,
-    val complemento: String,
     val bairro: String,
+    val cep: String,
+    val complemento: String,
+    val ddd: String,
+    val gia: String,
+    val ibge: String,
     val localidade: String,
-    val uf: String,
-    val ibge: Int,
-    val gia: Int,
-    val ddd: Int,
-    val siafi: Int
+    val logradouro: String,
+    val siafi: String,
+    val uf: String
 )

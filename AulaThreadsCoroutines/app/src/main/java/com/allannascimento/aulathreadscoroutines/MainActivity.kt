@@ -4,7 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import androidx.lifecycle.lifecycleScope
 import com.allannascimento.aulathreadscoroutines.api.EnderecoAPI
 import com.allannascimento.aulathreadscoroutines.api.RetrofitHelper
 import com.allannascimento.aulathreadscoroutines.databinding.ActivityMainBinding
@@ -12,7 +11,6 @@ import com.allannascimento.aulathreadscoroutines.model.Endereco
 import kotlinx.coroutines.*
 import retrofit2.Response
 import java.lang.Runnable
-import kotlin.system.measureTimeMillis
 
 class MainActivity : AppCompatActivity() {
 
